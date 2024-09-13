@@ -88,6 +88,9 @@ namespace Proyecto_Investigacion
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtNombre.Text = string.Empty;
+            txtSalario.Text = string.Empty;
+            txtAño.Text = string.Empty;
+            cbxCate.SelectedIndex = -1;
         }
     }
 }
