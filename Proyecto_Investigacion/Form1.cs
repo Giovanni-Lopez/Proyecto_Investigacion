@@ -77,8 +77,8 @@ namespace Proyecto_Investigacion
                         incrementoCategoria = 0.15;
                         incremento = incrementoAño + incrementoCategoria;
                         salario = salario + incremento;
-                        MessageBox.Show("Nombre: "+nombre+
-                            "\n ");
+                        MessageBox.Show("   Nombre: "+nombre+
+                            "\nNuevo Salario: $" + salario);
 
                     break;
                 }
