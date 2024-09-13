@@ -71,7 +71,7 @@ namespace Proyecto_Investigacion
                 categoria = cbxCate.SelectedIndex + 1;
                 switch (categoria)
                 { 
-                    //Calculo para Categoria 1
+                        //Calculo para Categoria 1
                     case 1:
                         incrementoAño = incrementoAño * año;
                         incrementoCategoria = 0.15;
@@ -81,7 +81,30 @@ namespace Proyecto_Investigacion
                             "\nNuevo Salario: $" + salario);
 
                     break;
+
+                        //calculo categoria 2
+                    case 2:
+                        incrementoAño = incrementoAño * año;
+                        incrementoCategoria = 0.10;
+                        incremento = incrementoAño + incrementoCategoria;
+                        salario = salario + incremento;
+                        MessageBox.Show("   Nombre: " + nombre +
+                            "\nNuevo Salario: $" + salario);
+                        break;
+
+                        //calculo categoria 2
+                    case 3:
+                        incrementoAño = incrementoAño * año;
+                        incrementoCategoria = 0.05;
+                        incremento = incrementoAño + incrementoCategoria;
+                        salario = salario + incremento;
+                        MessageBox.Show("   Nombre: " + nombre +
+                            "\nNuevo Salario: $" + salario);
+                        break;
                 }
+
+                
+
 
                 
                 
