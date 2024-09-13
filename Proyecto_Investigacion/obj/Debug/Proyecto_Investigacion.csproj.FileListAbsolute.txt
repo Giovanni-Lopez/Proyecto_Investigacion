@@ -8,3 +8,13 @@ C:\Users\Win11\Documents\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug
 C:\Users\Win11\Documents\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.csproj.CoreCompileInputs.cache
 C:\Users\Win11\Documents\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.exe
 C:\Users\Win11\Documents\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.pdb
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\bin\Debug\Proyecto_Investigacion.exe.config
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\bin\Debug\Proyecto_Investigacion.exe
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\bin\Debug\Proyecto_Investigacion.pdb
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.csproj.AssemblyReference.cache
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.Form1.resources
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.Properties.Resources.resources
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.csproj.GenerateResource.cache
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.csproj.CoreCompileInputs.cache
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.exe
+C:\Users\cabre\Source\Repos\Proyecto_Investigacion\Proyecto_Investigacion\obj\Debug\Proyecto_Investigacion.pdb

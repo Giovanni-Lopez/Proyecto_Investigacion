@@ -26,7 +26,7 @@ namespace Proyecto_Investigacion
         {
             //Declarando variable
             string nombre = "";
-            double salario = 0, incrementoAño = 0.05, incrementoCategoria = 0, incremento=0; 
+            double salario = 0, IncrementoSalario = 0, incrementoAño = 0.05, incrementoCategoria = 0, incremento=0; 
             int año = 0, categoria = 0;
             
             try
@@ -76,7 +76,9 @@ namespace Proyecto_Investigacion
                         incrementoAño = incrementoAño * año;
                         incrementoCategoria = 0.15;
                         incremento = incrementoAño + incrementoCategoria;
-                        salario = salario + incremento;
+                        IncrementoSalario = salario*incremento;
+                        salario = salario + IncrementoSalario;
+                      
                         MessageBox.Show("   Nombre: "+nombre+
                             "\nNuevo Salario: $" + salario);
 
@@ -87,7 +89,8 @@ namespace Proyecto_Investigacion
                         incrementoAño = incrementoAño * año;
                         incrementoCategoria = 0.10;
                         incremento = incrementoAño + incrementoCategoria;
-                        salario = salario + incremento;
+                        IncrementoSalario = salario * incremento;
+                        salario = salario + IncrementoSalario;
                         MessageBox.Show("   Nombre: " + nombre +
                             "\nNuevo Salario: $" + salario);
                         break;
@@ -97,7 +100,8 @@ namespace Proyecto_Investigacion
                         incrementoAño = incrementoAño * año;
                         incrementoCategoria = 0.05;
                         incremento = incrementoAño + incrementoCategoria;
-                        salario = salario + incremento;
+                        IncrementoSalario = salario * incremento;
+                        salario = salario + IncrementoSalario;
                         MessageBox.Show("   Nombre: " + nombre +
                             "\nNuevo Salario: $" + salario);
                         break;
