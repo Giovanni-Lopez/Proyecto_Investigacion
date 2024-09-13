@@ -106,7 +106,8 @@ namespace Proyecto_Investigacion
             this.cbxCate.FormattingEnabled = true;
             this.cbxCate.Items.AddRange(new object[] {
             "Categoria 1: 15%",
-            "Categoria 2: 10%"});
+            "Categoria 2: 10%",
+            "Categoria 3: 5%"});
             this.cbxCate.Location = new System.Drawing.Point(151, 52);
             this.cbxCate.Name = "cbxCate";
             this.cbxCate.Size = new System.Drawing.Size(121, 21);

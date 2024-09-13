@@ -26,7 +26,7 @@ namespace Proyecto_Investigacion
         {
             //Declarando variable
             string nombre = "";
-            double salario = 0;
+            double salario = 0, incrementoAño = 0.05, incrementoCategoria = 0, incremento=0; 
             int año = 0, categoria = 0;
             
             try
@@ -66,6 +66,25 @@ namespace Proyecto_Investigacion
                     MessageBox.Show("No se ha seleccionado ninguna categoria!!");
                     return;
                 }
+
+                //Incremento de e salario 
+                categoria = cbxCate.SelectedIndex + 1;
+                switch (categoria)
+                { 
+                    //Calculo para Categoria 1
+                    case 1:
+                        incrementoAño = incrementoAño * año;
+                        incrementoCategoria = 0.15;
+                        incremento = incrementoAño + incrementoCategoria;
+                        salario = salario + incremento;
+                        MessageBox.Show("Nombre: "+nombre+
+                            "\n ");
+
+                    break;
+                }
+
+                
+                
 
 
 
